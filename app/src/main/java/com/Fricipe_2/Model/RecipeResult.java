@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2.Model;
+package com.Fricipe_2.Model;
 
 public class RecipeResult {
     private final int ingrCount;

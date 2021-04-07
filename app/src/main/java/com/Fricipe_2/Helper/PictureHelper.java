@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2.Helper;
+package com.Fricipe_2.Helper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

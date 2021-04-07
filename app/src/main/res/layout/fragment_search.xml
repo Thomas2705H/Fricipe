@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="com.fabian.Ziegler.Fricipe_2.SearchFragment">
+    tools:context="com.Fricipe_2.SearchFragment">
 
     <CheckBox
         android:id="@+id/radioButton25"
@@ -168,7 +168,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:text="Ingredients"
-        android:textColor="@color/colorAccent_deepBlue"
+        android:textColor="@color/colorAccent_deepGreen"
         android:textSize="18sp"
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintLeft_toLeftOf="parent"

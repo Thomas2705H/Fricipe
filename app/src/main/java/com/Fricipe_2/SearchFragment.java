@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2;
+package com.Fricipe_2;
 
 
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.Toast;
 
-import com.fabian.Ziegler.Fricipe_2.Helper.DatabaseHelper;
-import com.fabian.Ziegler.Fricipe_2.Model.RecipeItem;
-import com.fabian.Ziegler.Fricipe_2.Model.RecipeResult;
+import com.Fricipe_2.Helper.DatabaseHelper;
+import com.Fricipe_2.Model.RecipeItem;
+import com.Fricipe_2.Model.RecipeResult;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

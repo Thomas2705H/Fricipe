@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fabian.Ziegler.Fricipe_2">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Fricipe_2">
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -8,7 +9,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.fabian.Ziegler.Fricipe_2.MainActivity"
+            android:name="com.Fricipe_2.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -29,12 +31,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.fabian.Ziegler.Fricipe_2.RecipeItems.RecipeActivity"
+            android:name="com.Fricipe_2.RecipeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.fabian.Ziegler.Fricipe_2.RecipeItems.RecipeListActivity"
+            android:name="com.Fricipe_2.RecipeListActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.fabian.Ziegler.Fricipe_2.SearchResult" />
+        <activity android:name="com.Fricipe_2.SearchResult" />
     </application>
 
 </manifest>

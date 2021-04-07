@@ -1,12 +1,14 @@
 <resources>
-    <string name="app_name">Recipes Ideas</string>
+    <string name="app_name">Fricipe - deine Rezepte App</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Öffne Menü</string>
+    <string name="navigation_drawer_close">Schließe Menü</string>
 
     <string name="title_activity_recipy">RecipyActivity</string>
 
-    <!-- Strings related to login -->
+    <string name="title_main_screen">Herzlich Willkommen zu Fricipe</string>
+    <string name="text_main_screen">Wähle nun, ob du ein Rezept mit Zutaten aus deinem Kühlschrank erhalten möchtest oder ein beliebiges Rezept.</string>
+    <string name="button_1">eigene Zutaten</string>
+    <string name="button_2">zufälliges Rezept</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
 </resources>

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.fabian.Ziegler.Fricipe_2"
+        applicationId "com.Fricipe_2"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2;
+package com.Fricipe_2;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -11,8 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.fabian.Ziegler.Fricipe_2.RecipeItems.FavoriteRecipe;
-import com.fabian.Ziegler.Fricipe_2.RecipeItems.Recipes;
+import com.Fricipe_2.FavoriteRecipe;
+import com.Fricipe_2.Recipes;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -90,15 +90,11 @@ public class MainActivity extends AppCompatActivity
             FavoriteRecipe favoriteRecipe = new FavoriteRecipe();
             manager.beginTransaction().replace(R.id.root_layout, favoriteRecipe, favoriteRecipe.getTag()).addToBackStack(null).commit();
 
-        } else if (id == R.id.nav_category) {
-
+        } else if (id == R.id.nav_category)
+        {
+            //connect to category page
             CategoryFragment categoryFragment = new CategoryFragment();
             manager.beginTransaction().replace(R.id.root_layout, categoryFragment, categoryFragment.getTag()).addToBackStack(null).commit();
-
-        } else if (id == R.id.nav_info) {
-
-            PushNotification pushNotification = new PushNotification();
-            manager.beginTransaction().replace(R.id.root_layout, pushNotification, pushNotification.getTag()).addToBackStack(null).commit();
 
         }
 

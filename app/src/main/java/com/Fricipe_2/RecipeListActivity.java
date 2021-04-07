@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2.RecipeItems;
+package com.Fricipe_2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,10 +9,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.fabian.Ziegler.Fricipe_2.Helper.DatabaseHelper;
-import com.fabian.Ziegler.Fricipe_2.Model.RecipeItem;
-import com.fabian.Ziegler.Fricipe_2.R;
-
+import com.Fricipe_2.Helper.DatabaseHelper;
+import com.Fricipe_2.Model.RecipeItem;
 import java.util.ArrayList;
 
 public class RecipeListActivity extends AppCompatActivity {

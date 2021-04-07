@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2.Model;
+package com.Fricipe_2.Model;
 
 /**
  * Created by lily on 2017-03-12.

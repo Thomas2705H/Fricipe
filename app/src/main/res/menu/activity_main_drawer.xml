@@ -10,19 +10,13 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_category"
-            android:icon="@drawable/ic_category"
+            android:icon="@drawable/ic_recipe"
             android:title="Category" />
         <item
             android:id="@+id/favoriteRecipe"
             android:icon="@drawable/checkbox"
-            android:title="Favourite Recipes" />
+            android:title="Lieblingsrezepte" />
 
     </group>
-    <group android:checkableBehavior="single" >
 
-        <item
-            android:id="@+id/nav_info"
-            android:icon="@drawable/ic_info"
-            android:title="Information" />
-    </group>
 </menu>

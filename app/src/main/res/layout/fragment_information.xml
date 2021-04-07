@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/fricipe_logo" />
 
     <TextView
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:gravity="center"
-        android:text="Fabien Ziegler"
+        android:text="Fabian Ziegler"
         android:textColor="#EF0606"
         android:textSize="36sp"
         android:textStyle="bold" />

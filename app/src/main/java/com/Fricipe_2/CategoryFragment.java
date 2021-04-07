@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2;
+package com.Fricipe_2;
 
 
 import android.content.Intent;
@@ -10,10 +10,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.fabian.Ziegler.Fricipe_2.Helper.DatabaseHelper;
-import com.fabian.Ziegler.Fricipe_2.Model.CategoryItem;
-import com.fabian.Ziegler.Fricipe_2.RecipeItems.RecipeListActivity;
-
+import com.Fricipe_2.Helper.DatabaseHelper;
+import com.Fricipe_2.Model.CategoryItem;
+import com.Fricipe_2.RecipeListActivity;
 import java.util.ArrayList;
 
 public class CategoryFragment extends Fragment {

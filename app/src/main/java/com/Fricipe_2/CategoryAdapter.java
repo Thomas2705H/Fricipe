@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2;
+package com.Fricipe_2;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.fabian.Ziegler.Fricipe_2.Helper.PictureHelper;
-import com.fabian.Ziegler.Fricipe_2.Model.CategoryItem;
+import com.Fricipe_2.Helper.PictureHelper;
+import com.Fricipe_2.Model.CategoryItem;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2;
+package com.Fricipe_2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 
-import com.fabian.Ziegler.Fricipe_2.RecipeItems.RecipeListActivity;
+import com.Fricipe_2.RecipeListActivity;
 
 import java.util.ArrayList;
 

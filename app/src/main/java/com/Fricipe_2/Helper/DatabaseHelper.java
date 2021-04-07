@@ -1,4 +1,4 @@
-package com.fabian.Ziegler.Fricipe_2.Helper;
+package com.Fricipe_2.Helper;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,9 +6,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
 
-import com.fabian.Ziegler.Fricipe_2.Model.CategoryItem;
-import com.fabian.Ziegler.Fricipe_2.Model.RecipeItem;
-import com.fabian.Ziegler.Fricipe_2.Model.RecipeResult;
+import com.Fricipe_2.Model.CategoryItem;
+import com.Fricipe_2.Model.RecipeItem;
+import com.Fricipe_2.Model.RecipeResult;
 
 import java.util.ArrayList;
 
