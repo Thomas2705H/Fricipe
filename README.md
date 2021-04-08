@@ -7,6 +7,36 @@ Des weieren sind Zeitersparnis und Nachhltigkeit die Hauptziele dieses App.
 
 
 
+![image](https://user-images.githubusercontent.com/76431192/114031521-bf21e100-987b-11eb-89ca-18c0e590fdc8.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Team
+
+Thomas Hofbauer
+Matr.Nr:2124911
+Email:Thomas1.Hofbauer@stud.uni-regensburg.de
+GitHub:Thomas2705H
+Komponente: Musik
+
+
+Fabian Ziegler
+Matr.Nr:
+Email:@stud.uni-regensburg.de
+GitHub:
+Komponente: Benachrichtigung, Layout
+
+Die App wurde zusammen programmmiert bis auf wenige Komponenten die oben angegeben wurden.
 
 Quellen:
 DBHelper:
